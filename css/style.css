@@ -26,3 +26,18 @@ nav a {
     color: white;
     text-decoration: none;
 }
+/* Grundlegende Gestaltung für den Footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 0.5rem;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+/* Sanftes Scrollen aktivieren */
+html {
+    scroll-behavior: smooth;
+}
