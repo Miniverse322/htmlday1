@@ -41,3 +41,15 @@ footer a {
 html {
     scroll-behavior: smooth;
 }
+
+/* Fine-Tuning: Außenabstände um Logo und Slogan anpassen */
+header h1 {
+    margin-bottom: 0;
+}
+header p {
+    margin-top: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
