@@ -53,3 +53,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/*Grundlegende Gestaltung für den Abschnitt mit den Infoboxen*/
+.infoboxen {
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.infobox {
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
