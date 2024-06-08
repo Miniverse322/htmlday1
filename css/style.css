@@ -26,12 +26,22 @@ header {
     color: white;
     text-decoration: none;
 }
+.current a {
+    text-decoration: underline;
+}
 /* Grundlegende Gestaltung für den Footer */
 .site-footer{
     background-color: black;
     color: white;
     text-align: right;
     padding: 0.5rem;
+}
+.footer-nav ul {
+    margin: 0;
+}
+.footer-nav li {
+    display: inline;
+    margin: 0.5rem;
 }
 .site-footer a {
     color: white;
