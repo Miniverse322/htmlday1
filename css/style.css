@@ -14,7 +14,7 @@
       margin-right: 0.5rem; 
     }
   .site-nav { 
-      background-color: black;
+      background-color: #333;
       color: white; 
       padding: 0.5rem;
       margin: 1rem 0; 
@@ -34,7 +34,7 @@
   
   /* Grundlegende Gestaltung für den Footer */ 
   .site-footer {
-      background-color: black;
+      background-color: #333;
       color: white; 
       text-align: right; 
       padding: 0.5rem;
@@ -60,7 +60,7 @@
     
   /* Grundlegende Gestaltung für den Abschnitt mit den Infoboxen */ 
   .infoboxen {
-    background-color: whitesmoke; 
+    background-color: #eee; 
     padding: 1rem; 
     margin-bottom: 1rem; 
   }
@@ -94,7 +94,7 @@ address { font-style: normal; }
 .kontaktformular label { cursor: pointer; }
 .kontaktformular label[for] { display: block; }
 .kontaktformular button {
-    background-color: gray;
+    background-color: #07b;
     color: white;
     padding: 0.5rem;
     border: none;
