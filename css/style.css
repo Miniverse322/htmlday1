@@ -18,6 +18,16 @@ h6 { font-size: 1rem; }
 /* Überschriften etwas weniger fett */ 
 h1, h2, h3, h4 { font-weight: 500; } 
 
+/* Unterstreichung für Hyperlinks gestalten */
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.1875em;
+}
+
+/* Hyperlinks im Inhaltsbereich gestalten */
+.site-content a:link { color: #07b; } 
+.site-content a:visited { color: #3ad; } 
+
 /* Fine-Tuning: Die Abstände um Logo und Slogan anpassen */ 
 .site-header h1 { 
     margin-bottom: 0; 
