@@ -135,3 +135,6 @@ address { font-style: normal; }
     font-size: inherit;
     cursor: pointer;
 }
+.site-content a[href^="http"]::after {
+  content: " \2197";
+}
