@@ -27,6 +27,8 @@ a {
 /* Hyperlinks im Inhaltsbereich gestalten */
 .site-content a:link { color: #07b; } 
 .site-content a:visited { color: #3ad; } 
+.site-content a:hover, .site-content a:focus { color: #f63 }
+.site.content a:active { color: #ec3c }
 
 /* Fine-Tuning: Die Abstände um Logo und Slogan anpassen */ 
 .site-header h1 { 
