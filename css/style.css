@@ -151,3 +151,14 @@ address { font-style: normal; }
     font-size: inherit;
     cursor: pointer;
 }
+
+/* Innenabstände für die Layoutbereiche */ 
+.site-header { padding: 1rem 1rem 0 1rem; } 
+.site-nav { padding: 0.5rem 1rem; } 
+.site-content { padding: 0 1rem; } 
+.site-footer { padding: 0.5rem 1rem; }
+
+/* Vertikale Außenabstände für die Layoutbereiche */ 
+.site-header { margin-bottom: 1rem; } 
+.site-nav { margin-bottom: 2rem; } 	
+.site-content { margin-bottom: 2rem; } 
