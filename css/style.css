@@ -1,5 +1,8 @@
 /* Stylesheet für die Übungswebsite aus ″Einstieg in HTML + CSS″ */ 
 
+/* border-box aktivieren */ 
+*, *::before, *::after { box-sizing: border-box; }
+
 /* Hintergrundfarbe für das Stammelement */
 html { background-color: whitesmoke; }
 
