@@ -43,6 +43,8 @@ a {
 /* Hyperlinks im Inhaltsbereich gestalten */
 .site-content a:link { color: #07b; } 
 .site-content a:visited { color: #3ad; } 
+.site-content a:hover, .site-content a:focus { color: #f63 }
+.site.content a:active { color: #ec3c }
 
 /* Fine-Tuning: Die Abstände um Logo und Slogan anpassen */ 
 .site-header h1 { 
@@ -149,14 +151,3 @@ address { font-style: normal; }
     font-size: inherit;
     cursor: pointer;
 }
-
-/* Innenabstände für die Layoutbereiche */
-.site-header { padding: 1rem 1rem 0 1rem; }
-.site-nav { padding: 0.5rem 1rem; }
-.site-content { padding: 0 1rem; }
-.site-footer { padding: 0.5rem 1rem; }
-
-/* Vertikale Außenabstände für die Layoutbereiche */
-.site-header { margin-bottom: 1rem; }
-.site-nav { margin-bottom: 2rem; }
-.site-content { margin-bottom: 2rem; }
