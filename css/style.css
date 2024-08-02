@@ -8,6 +8,7 @@ body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, 
                 "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
+
   /* Hintergrundfarbe und Begrenzung der Breite */
   background-color: white;
   min-width: 320px;
@@ -45,6 +46,11 @@ a {
 .site-content a:visited { color: #3ad; } 
 .site-content a:hover, .site-content a:focus { color: #f63 }
 .site.content a:active { color: #ec3c }
+
+/* Externe Hyperlinks kennzeichnen */
+/* .site-content a[href^="http"]::after { content: " (in neuem Tab oder Fenster)"; }  */
+.site-content a[href^="http"]::after { content: " \2197"; }
+/* .site-content a[target="_blank"]::after { content: " \2197"; } */
 
 /* Fine-Tuning: Die Abstände um Logo und Slogan anpassen */ 
 .site-header h1 { 
