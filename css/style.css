@@ -194,3 +194,17 @@ address { font-style: normal; }
 .site-header { margin-bottom: 1rem; } 
 .site-nav { margin-bottom: 2rem; } 	
 .site-content { margin-bottom: 2rem; } 
+
+/* Boxen am Bildschirm ausblenden */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0) !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  margin: -1px !important;
+}
