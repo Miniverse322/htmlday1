@@ -1,0 +1,41 @@
+/*=========================================================
+Einstieg in HTML und CSS
+Stylesheet für die Übungswebsite
+
+navi-inline.css
+wird in style.css per @import eingebunden 
+
+ Stylesheet zur Gestaltung der Site-Navigation
+    - basiert auf display: inline 
+    - Gestaltung von außen nach innen: 
+      1. Der Navigationsbereich .site-nav
+      2. Die Navigationsliste ul und li 
+      3. Die Links in der Navigation  
+      4. Der aktuelle Menüpunkt 
+
+=========================================================*/
+
+.site-nav { 
+    background-color: #333;
+    color: white; 
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+.site-nav ul {
+    padding: 0; 
+    margin: 0; 
+  }
+.site-nav li { 
+    display: inline; 
+    list-style-type: none;
+    margin-right: 0.5rem; 
+  }
+.site-nav a {
+    color: white; 
+    text-decoration: none; 
+}
+.current a { 
+    text-decoration: underline; 
+  }
+
+/* Ende navi-inline.css */
