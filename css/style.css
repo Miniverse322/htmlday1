@@ -15,7 +15,7 @@
 @import url("layout.css"); 
 
 /* Modernes Layout. Auskommentieren = klassisches Layout */
-@import url("layout-modern.css"); 
+/* @import url("layout-modern.css");  */
 
 /* Modul für einfache Inline-Navigation */
 @import url("navi-inline.css"); 
