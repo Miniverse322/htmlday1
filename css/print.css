@@ -1,0 +1,16 @@
+/*  ==========================================
+print.css
+Einfache Druckversion für die Übungswebsite
+========================================== */
+
+@media print {
+    *{
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    html { background-color: white; color: black; }
+
+    .site-nav, .site-footer { display: none; }
+
+    } /* Ende @media print */

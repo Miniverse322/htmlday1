@@ -26,6 +26,8 @@
 /* Modul für Kontaktformular und andere Interaktionen */
 @import url("forms.css"); 
 
+/* Modul für eine einfache Druckversion */
+@import url("print.css")
 
 /** 
   * Ende style.css 
