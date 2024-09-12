@@ -38,12 +38,19 @@
     padding: 1rem; 
     margin-bottom: 1rem; 
   }
-  .infobox {
+.infobox {
     text-align: center; 
     background-color: white; 
     padding: 1rem;
     margin: 1rem; 
-  }  
+}  
+@media screen and (min-width: 600px) {
+  .infoboxen > .inside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+} /* Ende @media */
 
 /** 
   * Kundenstimmen 

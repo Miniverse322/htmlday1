@@ -29,6 +29,11 @@ body {
   padding: 0 1rem; 
   margin: 0 auto; 
 }
+@supports (display:grid) {
+  .inside {
+    max-width: 960px;
+  }
+}
 
 /* In content.css definierte Abstände korrigieren - zusätzliche Klasse erhöht Spezifität */ 
 .site-content .infoboxen { padding-right: 0; padding-left: 0; } 
