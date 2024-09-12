@@ -92,6 +92,19 @@
 /** 
   * Inhalte auf der Seite News 
   */ 
+@media screen and (min-width: 600px) {
+  .seite-news .site-content > .inside {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 1rem;
+    grid-template-areas: "intro intro" "beitragsliste sidebar";
+  }
+  .seite-news .conent-intro { grid-area: intro; }
+  .seite-news .beitragsliste { grid-area: beitragsliste; }
+  .seite-news .linklisten { grid-area: sidebar; }
+} /* Ende @media */
+
 .beitragsliste h3, .linklisten h3 {
     padding-top: 0.5rem; 
     border-top: 1px solid whitesmoke; 
