@@ -77,7 +77,25 @@ address { font-style: normal; }
     margin: -1px !important; 
   }
 
-  
+.float-rechts { float: right; margin: 0 0 0 1rem; }
+.float-links { float: left; margin: 0 1rem 0 0; }
+
+.float-stoppen { clear: both; }
+
+figure[class="float-rechts"],
+figure[class="float-links"] {
+  text-align: center;
+}
+
+.float-umschliessen { overflow: hidden; }
+
+@supports (display: flow-root) {
+  .float-umschliessen {
+    display: flow-root;
+    overflow: initial;
+  }
+} /* Ende @supports */
+
 /** 
   * Ende basis.css 
   */ 
