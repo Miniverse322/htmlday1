@@ -18,7 +18,10 @@
 @import url("layout-modern.css"); 
 
 /* Modul für einfache Inline-Navigation */
-@import url("navi-inline.css"); 
+/* @import url("navi-inline.css"); */ 
+
+/* Modul für eine responsive Navigation */
+@import url("navi-responsiv.css");
 
 /* Modul zur Gestaltung der Inhalte in <main> */
 @import url("content.css"); 
