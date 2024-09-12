@@ -18,7 +18,11 @@ html { background-color: transparent; }
 body { 
   max-width: none; 
   padding: 0; 
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
   margin: 0; 
+
 }
 .inside {
   max-width: 600px; 
@@ -35,6 +39,9 @@ body {
   padding-left: 0; 
 }
 
+.site-content {
+  flex: 1; 
+}
 
 /** 
   * Ende layout-modern.css 
